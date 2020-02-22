@@ -15,3 +15,4 @@ CMDS:
 7.describe/explain [table_name]; -- To describe the field and its type
 8.describe [t_name] state; -- To show the contents in table
 9.select * from [t_name]; -- To show all the contents of the table 
+10.GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password'; -- To grant permission-create databases/tables for user
